@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #221f1f;
+}
+
+.App {
+  background-color: #221f1f;
+}
+.bg-custom {
+  background-color: #221f1f;
+}
+
+.nav-item:active {
+  font-weight: bold;
+}
+.navImg {
+  margin-left: -8px;
+}
+
+.nav-footer a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+.nav-footer a:hover {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 576px) {
+  .cards-wrapper {
+    display: flex;
+  }
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 calc(100% / 3);
+    display: block;
+  }
+}
+
+.card {
+  transition: all 1s ease;
+  border: none !important;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  -webkit-box-shadow: 3px 3px 5px #000;
+  -moz-box-shadow: 3px 3px 5px #000;
+  box-shadow: 3px 3px 5px #000;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.card-body {
+  background-color: #221f1f;
+}
+
+.cardDimension {
+  height: 35em;
+  object-fit: cover;
+}
+
+.scrollX {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding-inline: 30px;
+  }
+}
+.marginAdj {
+  margin-left: -5px;
+}
